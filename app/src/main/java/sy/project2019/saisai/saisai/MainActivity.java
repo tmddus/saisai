@@ -14,13 +14,15 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         ImageView helpBtn = findViewById(R.id.helpBtn);
-
         helpBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, HelpActivity.class);
+                startActivity(intent);
             }
         });
+
+
 
 
     }
