@@ -7,12 +7,17 @@
     tools:context=".HelpActivity">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <android.support.v4.view.ViewPager
         android:id="@+id/mainViewpager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"></android.support.v4.view.ViewPager>
 
 </LinearLayout>
+=======
+
+</android.support.constraint.ConstraintLayout>
+>>>>>>> parent of 2f6d597... 뷰페이저(앱 사용 방법) 구현
 =======
 
 </android.support.constraint.ConstraintLayout>
