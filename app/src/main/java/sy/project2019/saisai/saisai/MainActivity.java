@@ -1,5 +1,6 @@
 package sy.project2019.saisai.saisai;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -26,12 +27,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-<<<<<<< HEAD
+
         jpRec = findViewById(R.id.jp_record);
         korRec = findViewById(R.id.kor_record);
         jpRec.setOnClickListener(recListner);
         korRec.setOnClickListener(recListner);
-=======
+
         ImageView helpBtn = findViewById(R.id.helpBtn);
 
         helpBtn.setOnClickListener(new View.OnClickListener() {
@@ -40,8 +41,6 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(MainActivity.this, HelpActivity.class);
             }
         });
-
->>>>>>> parent of 2f6d597... 뷰페이저(앱 사용 방법) 구현
 
     }
 
