@@ -27,5 +27,6 @@ public class HelpActivity extends AppCompatActivity {
         //ViewPager에 Adapter 설정
 
         pager.setAdapter(adapter);
+
     }
 }
