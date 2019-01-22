@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#111111"
+    >
+    <RelativeLayout
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/chatbg"
+        >
+        <TextView
+            android:gravity="right"
+            android:id="@+id/transText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17.2sp"
+            android:textColor="#147fff"
+            android:text="こんにちは"
+            android:paddingRight="50dp"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/transText"
+            android:layout_alignParentRight="true"
+            android:gravity="right"
+            android:text="안녕하세요."
+            android:textColor="#4a4949"
+            android:textSize="8.8sp"
+            android:paddingRight="50dp"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>

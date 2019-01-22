@@ -31,8 +31,6 @@ public class MainActivity extends AppCompatActivity {
         jpRec.setOnClickListener(recListner);
         korRec.setOnClickListener(recListner);
 
-        
-
 
 
     }
