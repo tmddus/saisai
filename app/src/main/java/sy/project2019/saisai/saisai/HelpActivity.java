@@ -5,12 +5,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 public class HelpActivity extends AppCompatActivity {
+
     ViewPager pager;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_help);
-
         pager= (ViewPager)findViewById(R.id.mainViewpager);
 
         //ViewPager에 설정할 Adapter 객체 생성

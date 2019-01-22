@@ -27,7 +27,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
         jpRec = findViewById(R.id.jp_record);
         korRec = findViewById(R.id.kor_record);
         jpRec.setOnClickListener(recListner);
@@ -39,11 +38,11 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, HelpActivity.class);
+                startActivity(intent);
             }
         });
 
     }
-
     View.OnClickListener recListner = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
