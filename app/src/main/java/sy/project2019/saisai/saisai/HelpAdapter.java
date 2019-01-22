@@ -10,7 +10,6 @@ import android.widget.ImageView;
 public class HelpAdapter extends PagerAdapter {
     LayoutInflater inflater;
 
-
     public HelpAdapter(LayoutInflater inflater) {
         //전달 받은 LayoutInflater를 멤버변수로 전달
         this.inflater = inflater;
@@ -35,20 +34,17 @@ public class HelpAdapter extends PagerAdapter {
 
         view = inflater.inflate(R.layout.help_item, null);
 
-
         //만들어진 View안에 있는 ImageView 객체 참조
 
         //위에서 inflated 되어 만들어진 view로부터 findViewById()를 해야 하는 것에 주의.
 
         ImageView img = (ImageView) view.findViewById(R.id.viewItem);
 
-
         //ImageView에 현재 position 번째에 해당하는 이미지를 보여주기 위한 작업
 
         //현재 position에 해당하는 이미지를 setting
 
         img.setImageResource(R.drawable.help1 + position);
-
 
         //ViewPager에 만들어 낸 View 추가
 
