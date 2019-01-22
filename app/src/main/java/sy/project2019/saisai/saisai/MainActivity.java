@@ -54,6 +54,7 @@ public class MainActivity extends AppCompatActivity {
 
                 String transResult;
 
+<<<<<<< HEAD
                 if(v.getId() == R.id.jp_record) {
                     source = "ja";
                     target = "ko";
@@ -101,6 +102,8 @@ public class MainActivity extends AppCompatActivity {
     };
 
 =======
+=======
+>>>>>>> parent of 2f6d597... 뷰페이저(앱 사용 방법) 구현
     }
 >>>>>>> parent of 2f6d597... 뷰페이저(앱 사용 방법) 구현
 }

@@ -10,6 +10,7 @@ public class HelpActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_help);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         pager= (ViewPager)findViewById(R.id.mainViewpager);
 
@@ -27,6 +28,8 @@ public class HelpActivity extends AppCompatActivity {
         //ViewPager에 Adapter 설정
 
         pager.setAdapter(adapter);
+=======
+>>>>>>> parent of 2f6d597... 뷰페이저(앱 사용 방법) 구현
 =======
 >>>>>>> parent of 2f6d597... 뷰페이저(앱 사용 방법) 구현
     }
