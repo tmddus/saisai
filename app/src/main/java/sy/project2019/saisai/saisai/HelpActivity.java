@@ -1,15 +1,15 @@
 package sy.project2019.saisai.saisai;
 
-import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 public class HelpActivity extends AppCompatActivity {
-    ViewPager pager;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_help);
+<<<<<<< HEAD
 
         pager= (ViewPager)findViewById(R.id.mainViewpager);
 
@@ -27,5 +27,7 @@ public class HelpActivity extends AppCompatActivity {
         //ViewPager에 Adapter 설정
 
         pager.setAdapter(adapter);
+=======
+>>>>>>> parent of 2f6d597... 뷰페이저(앱 사용 방법) 구현
     }
 }

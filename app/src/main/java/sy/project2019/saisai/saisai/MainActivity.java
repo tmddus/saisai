@@ -39,12 +39,12 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, HelpActivity.class);
-                startActivity(intent);
             }
         });
 
     }
 
+<<<<<<< HEAD
     View.OnClickListener recListner = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
@@ -100,4 +100,7 @@ public class MainActivity extends AppCompatActivity {
         }
     };
 
+=======
+    }
+>>>>>>> parent of 2f6d597... 뷰페이저(앱 사용 방법) 구현
 }
